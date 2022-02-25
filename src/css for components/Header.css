@@ -1,0 +1,83 @@
+.title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    transition: 0.5s;
+    margin-top: -5px;
+    margin-bottom: 2.5px;
+    border-radius: 15px;
+    padding-bottom: 2.5px;
+    background-position: center;
+    margin-left: 38.5%;
+    margin-right: 38.5%;
+}
+
+.title:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.header-container {
+    align-items: center;
+    text-align: center;
+    background-color: #fc6c58;
+    padding-bottom: 5px;
+}
+
+.header-container button {
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    font-size: 20px;
+    transition: 0.25s;
+    border-radius: 10px;
+}
+
+.header-container button:hover {
+    color: black;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.visualize-button {
+    background-color: black !important;
+}
+
+.visualize-button:hover {
+    color: #fc6c58 !important;
+}
+
+.header-container .menu {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fc6c58;
+    position: absolute;
+}
+
+.header-container .menu button {
+    font-size: small;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: none;
+    padding-bottom: 3.5px;
+    padding-top: 2.5px;
+    border-radius: 15px;
+}
+
+.header-container .menu button:hover {
+    color: #fc6c58;
+    background-color: black;
+    cursor: pointer;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}

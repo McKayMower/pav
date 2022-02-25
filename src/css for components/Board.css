@@ -1,0 +1,49 @@
+.board .cell {
+   transition: background-color 0.2s linear;
+   width: 25px;
+   height: 25px;
+   border: 0.5px solid black;
+   background-color: white;
+}
+.board .cell-wall {
+    transition: background-color 0.2s linear;
+    width: 25px;
+    height: 25px;
+    border: 0.5px solid black;
+    background-color: black;
+ }
+
+ .board .finding {
+    transition: background-color 0.2s linear;
+    width: 25px;
+    height: 25px;
+    border: 0.5px solid black;
+    background-color: #2596be;
+ }
+
+ .board .showing {
+    transition: background-color 0.2s linear;
+    width: 25px;
+    height: 25px;
+    border: 0.5px solid black;
+    background-color: grey;
+ }
+
+ .board .start-cell {
+    width: 25px;
+    height: 25px;
+    border: 0.5px solid black;
+    background-color: green;
+ }
+
+ .board .stop-cell {
+    width: 25px;
+    height: 25px;
+    border: 0.5px solid black;
+    background-color: red;
+ }
+
+.board {
+    width: 100%;
+    border-collapse: collapse;
+}
