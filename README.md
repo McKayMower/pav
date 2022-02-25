@@ -1,4 +1,4 @@
 # pav
 Pathfinding Algorithm Visualizer
 
-see it at McKayMower.github.io/pav
+see it at [website](McKayMower.github.io/pav)
